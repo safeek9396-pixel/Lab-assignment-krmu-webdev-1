@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>form tag</h1>
+        <form action="form.php">
+            <input type="text" placeholder="enter your name"><br><br>
+            <lable for="email">Email</lable>
+            <input type="email"name="email" type="email"><br><br>
+            <lable for="mobile">Mobile</lable>
+            <input type="number"name="mobile" placeholder="Mobile no." pattern="[6-9]{10}"><br><br>
+            <lable for="photo">photo</lable>
+            <input type="photo"name="photo"type="file"><br><br>
+            <lable for="age">age</lable>
+            <input type="age" name="age" type="number"><br><br>
+            <lable for="date of birth">dob</lable>
+            <input type="date"id="dob"name="dob"><br><br>
+            <lable for="rollno">Roll number</lable>
+            <input type="text"id="rollno"name="rollno"><br><br>
+            <lable for="gender">Gender</lable>
+            <select name="gender" id="gender">
+                <option value="">Select...</option>
+                <option value="male">Male</option>
+                <option value="male">female</option>
+                <option value="male">other</option>
+            </select><br><br>
+            <lable for="sectonida">
+                <input type="radio" value="section a" name="section" id="sectionida"> Section A
+            </lable>
+            <lable for="sectionidb">
+                <input type="radio" value="section b" name="section" id="sectionidb"> Section B
+
+            </lable><br><br>
+            <textarea name="explain" id="explain" cols="10" placeholder="explain why"></textarea>
+            <select name="class" id="class">
+                <option value="none">select your class</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select><br><br>
+            <button type="submit">Submit</button>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
